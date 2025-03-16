@@ -2,7 +2,7 @@
 ### Results from 24h will be uploaded here: 
 Start Time: March 16th 2025 10:06PM
 
-### (Image for refrence, full details will be in above link after 24h+ periods) 
+### (Image for refrence, full details will be in above link after 24h period) 
 <img src="https://i.imgur.com/Yih9yxK.png" width="500">
 
 ## Overview
