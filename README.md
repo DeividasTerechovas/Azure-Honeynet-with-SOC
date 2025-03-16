@@ -1,4 +1,4 @@
-# Creating Azure Honeyney with SOC 
+# Creating Azure Honeynet with SOC 
 ### Results from 24h will be uploaded here: 
 
 ### (Image for refrence, full details will be in above link after 24h+ periods) 
@@ -69,6 +69,14 @@ Log Analytics Workspace:
 Create a workspace to centralize logs.
 
 Add diagnostic settings for virtual machines, NSGs, and Azure resources.
+
+Set up Xpath Query:
+
+// Windows Defender Malware Detection XPath Query
+Microsoft-Windows-Windows Defender/Operational!*[System[(EventID=1116 or EventID=1117)]]
+
+// Windows Firewall Tampering Detection XPath Query
+Microsoft-Windows-Windows Firewall With Advanced Security/Firewall!*[System[(EventID=2003)]]
 
 Microsoft Sentinel:
 
