@@ -1,5 +1,6 @@
-# Creating Azure Honeynet with SOC 
+# Building Azure Honeynet with SOC 
 ### Results from 24h will be uploaded here: 
+Start Time: March 16th 2025 10:06PM
 
 ### (Image for refrence, full details will be in above link after 24h+ periods) 
 <img src="https://i.imgur.com/Yih9yxK.png" width="500">
@@ -14,13 +15,23 @@ In this project, I set up a mini honeynet in Azure to collect logs from various 
 * SecurityIncident (Incidents created by Sentinel)
 * AzureNetworkAnalytics_CL (Malicious flows allowed into the honeynet)
 
+ The architecture of the mini honeynet in Azure consists of the following components:
+
+- Virtual Network (VNet)
+- Network Security Group (NSG)
+- Virtual Machines (2 windows, 1 linux)
+- Log Analytics Workspace
+- Azure Key Vault
+- Azure Storage Account
+- Microsoft Sentinel 
+
 ### Prerequisites
 
-Azure Subscription: Create a free Azure account to receive $200 in credit. Alternatively, use a pay-as-you-go plan for greater flexibility.
+Azure Subscription: Create a free Azure account to receive $200 in credit.
 
 Basic Networking and Cloud Knowledge: Understanding of virtual machines (VMs), subnets, and firewalls.
 
-Steps to Create the Honeynet
+# Steps to Create the Honeynet
 
 ## 1. Set Up Virtual Machines 
 
@@ -253,4 +264,5 @@ Use Sentinel to generate incident alerts and track remediations.
 ```
 ## Conclusion
 
-This lab demonstrates how to create and operate a honeynet in a SOC environment. By simulating real-world attacks and responses, you gain practical experience in cloud security and incident management.
+In this project, a mini honeynet was constructed in Microsoft Azure and the logs were pushed into a Log Analytics Workspace for analysis. Microsoft Sentinel was also employed to trigger alerts and create incidents based on the ingested logs.
+
