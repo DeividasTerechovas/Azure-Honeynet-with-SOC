@@ -1,5 +1,6 @@
 # Building Azure Honeynet with SOC 
 ### Results from 24h will be uploaded here: <a href="https://github.com/DeividasTerechovas/Azure-Honeynet-with-SOC-Results"> Press For Results </a>
+### (Results after Hardening will be put in the same spot as above)
 
 ## Overview
 
