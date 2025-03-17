@@ -1,9 +1,5 @@
 # Building Azure Honeynet with SOC 
 ### Results from 24h will be uploaded here: <a href="https://github.com/DeividasTerechovas/Azure-Honeynet-with-SOC-Results"> Press For Results </a>
-Start Time: March 16th 2025 10:06PM
-
-### (Image for refrence, full details will be in above link after 24h period) 
-<img src="https://i.imgur.com/Yih9yxK.png" width="500">
 
 ## Overview
 
