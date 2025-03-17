@@ -22,6 +22,7 @@ In this project, I set up a mini honeynet in Azure to collect logs from various 
 - Azure Storage Account
 - Microsoft Sentinel 
 
+<img src="https://i.imgur.com/SF0glmk.jpeg" width="1000">
 ### Prerequisites
 
 Azure Subscription: Create a free Azure account to receive $200 in credit.
